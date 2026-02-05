@@ -1,8 +1,8 @@
-# progetto-test-spfx
+# Progetto Test SPFx
 
 ## Summary
 
-Short summary on functionality and used technologies.
+Primo progetto SPFx in React per Sharepoint
 
 [picture of the solution in action, if possible]
 
