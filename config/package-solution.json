@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "progetto-test-spfx-client-side-solution",
+    "id": "cd1d4d82-b358-43f4-b83c-d9962b1a5e15",
+    "version": "1.2.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "Brigazzi Fabio",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.22.1"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "progetto-test-spfx description"
+      },
+      "longDescription": {
+        "default": "progetto-test-spfx description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "progetto-test-spfx Feature",
+        "description": "The feature that activates elements of the progetto-test-spfx solution.",
+        "id": "3e8feced-0456-4677-951a-c9fb45449f0e",
+        "version": "1.2.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/progetto-test-spfx.sppkg"
+  }
+}

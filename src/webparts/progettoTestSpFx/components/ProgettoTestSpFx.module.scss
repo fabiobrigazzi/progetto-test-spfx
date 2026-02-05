@@ -1,0 +1,94 @@
+@import '~@fluentui/react/dist/sass/References.scss';
+
+.progettoTestSpFx {
+  overflow: hidden;
+  padding: 1em;
+  color: "[theme:bodyText, default: #323130]";
+  color: var(--bodyText);
+  &.teams {
+    font-family: $ms-font-family-fallbacks;
+  }
+  &.provafabio{
+    background-color: orange;
+  }
+}
+
+
+.welcome {
+  text-align: center;
+}
+
+.welcomeImage {
+  width: 100%;
+  max-width: 420px;
+}
+
+.links {
+  a {
+    text-decoration: none;
+    color: "[theme:link, default:#03787c]";
+    color: var(--link); // note: CSS Custom Properties support is limited to modern browsers only
+
+    &:hover {
+      text-decoration: underline;
+      color: "[theme:linkHovered, default: #014446]";
+      color: var(--linkHovered); // note: CSS Custom Properties support is limited to modern browsers only
+    }
+  }
+}
+
+.properyPaneStyles {
+  padding: 20px;
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .row {
+    display: flex;
+  }
+  
+  .column {
+    flex: 1;
+  }
+  
+  .title {
+    font-size: 28px;
+    font-weight: bold;
+    color: #0078d4;
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .description {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
+  .immagine {
+    max-width: 100%;
+    border-radius: 8px;
+    margin: 20px 0;
+  }
+  
+  .button {
+    background-color: #0078d4;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 4px;
+    display: inline-block;
+    transition: background-color 0.3s;
+    
+    &:hover {
+      background-color: #005a9e;
+    }
+  }
+}
+
+
+
+
+
